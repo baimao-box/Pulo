@@ -28,7 +28,7 @@ pilo -u http://www.exploit.com
 ```
 It will take some time for the tool to run, you need to wait for about 5 minutes
 
-![image](https://github.com/baimao-box/Pulo/assets/52622597/325843a4-fbcc-4917-bc57-31edc3e89a60)
+![image](https://github.com/baimao-box/Pulo/assets/52622597/c839f85d-aeca-4da1-8fdb-234c278ee4ac)
 
 ![image](https://github.com/baimao-box/Pulo/assets/52622597/a031ded2-61e6-425c-92b6-7707cab500b8)
 
