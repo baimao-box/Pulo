@@ -4,20 +4,27 @@ This is an automated information collection tool for penetration testing. You on
 
 This tool can also automatically search for related vulnerabilities in the vulnerability database based on the scanned port service version and output
 ## Install
+git：
+```
+git clone https://github.com/baimao-box/Pulo.git
+```
+Enter the directory after decompression
 ```
 chmod +x setup.py
 python3 setup.py
 ```
+Need to wait for a few minutes, during which you need to manually select some things, the default is fine
+
+![image](https://github.com/baimao-box/Pulo/assets/52622597/b86ca136-9ef7-4d96-afa7-fd9134dadd9e)
+
+
+After the installation is complete, you will be prompted whether to install searchsploit. This tool is very large, so ask here. If the network is good, you can install it.
 ## Run
 ```
 help:
 pilo -u [url]
-pilo -t [ip]
-pilo -t [ip] -u [url]
 example:
 pilo -u http://www.exploit.com
-pilo -t 127.0.0.1
-pilo -t 127.0.0.1 -u http://www.exploit.com
 ```
 It will take some time for the tool to run, you need to wait for about 5 minutes
 
