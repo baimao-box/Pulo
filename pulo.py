@@ -20,13 +20,13 @@ try:
 		return input_string
 
 	def delete_last_line(file_path):
-	    with open(file_path, 'r+') as file:
-		lines = file.readlines()
-		if len(lines) > 0:
-		    lines = lines[:-1]
-		    file.seek(0)
-		    file.truncate()
-		    file.writelines(lines)
+		with open(file_path, 'r+') as file:
+			lines = file.readlines()
+			if len(lines) > 0:
+				lines = lines[:-1]
+				file.seek(0)
+				file.truncate()
+				file.writelines(lines)
 
 	def extract_service_version(scan_output, service_name):
 		pattern = r"\d+\/tcp\s+open\s+{}\s+(.*?)\n".format(service_name)
