@@ -22,9 +22,9 @@ After the installation is complete, you will be prompted whether to install sear
 ## Run
 ```
 help:
-pilo -u [url]
+pulo -u [url]
 example:
-pilo -u http://www.exploit.com
+pulo -u http://www.exploit.com
 ```
 It will take some time for the tool to run, you need to wait for about 5 minutes
 
