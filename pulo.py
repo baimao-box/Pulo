@@ -221,6 +221,6 @@ try:
 		print("\033[1;31;40mDone\033[0m")
 except:
 	print("help:")
-	print("    pilo -u [url]")
+	print("    pulo -u [url]")
 	print("example:")
-	print("    pilo -u http://www.exploit.com")
+	print("    pulo -u http://www.exploit.com")
